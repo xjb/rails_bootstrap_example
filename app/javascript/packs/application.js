@@ -6,3 +6,7 @@
 import Rails from "@rails/ujs"
 
 Rails.start()
+
+import "stylesheets"
+import "bootstrap"
+import "bootstrap-icons/font/bootstrap-icons.css"
