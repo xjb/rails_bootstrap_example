@@ -10,6 +10,8 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render layout: 'layouts/layout' do %>
+      <%= yield %>
+    <% end -%>
   </body>
 </html>
