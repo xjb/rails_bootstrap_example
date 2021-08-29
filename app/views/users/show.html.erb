@@ -1,3 +1,5 @@
+<h1>User <%= @user.id %></h1>
+
 <dl class="row">
   <dt class="col-2">Name:</dt>
   <dd class="col"><%= @user.name %></dd>
@@ -8,5 +10,7 @@
   <dd class="col"><%= @user.email %></dd>
 </dl>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<section>
+  <%= link_to 'Edit', edit_user_path(@user) %> |
+  <%= link_to 'Back', users_path %>
+</section>

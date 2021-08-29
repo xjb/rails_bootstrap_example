@@ -11,17 +11,17 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :name, class: 'form-label' %>
     <%= form.text_field :name, class: 'form-control' %>
   </div>
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :email, class: 'form-label' %>
     <%= form.text_field :email, class: 'form-control' %>
   </div>
 
-  <div class="actions">
+  <section class="mb-3">
     <%= form.submit class: 'btn btn-dark' %>
-  </div>
+  </section>
 <% end %>
