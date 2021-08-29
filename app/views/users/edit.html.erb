@@ -2,7 +2,7 @@
 
 <%= render 'form', user: @user %>
 
-<section>
-  <%= link_to 'Show', @user %> |
-  <%= link_to 'Back', users_path %>
+<section class="btn-group" role="group">
+  <%= link_to 'Show', @user, class: 'btn btn-outline-dark' %>
+  <%= link_to 'Back', users_path, class: 'btn btn-outline-dark' %>
 </section>

@@ -10,7 +10,7 @@
   <dd class="col"><%= @user.email %></dd>
 </dl>
 
-<section>
-  <%= link_to 'Edit', edit_user_path(@user) %> |
-  <%= link_to 'Back', users_path %>
+<section class="btn-group" role="group">
+  <%= link_to 'Edit', edit_user_path(@user), class: 'btn btn-outline-dark' %>
+  <%= link_to 'Back', users_path, class: 'btn btn-outline-dark' %>
 </section>
